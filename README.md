@@ -1,8 +1,8 @@
-#Regueatonator Readme
+# Regueatonator Readme
 
 Thanks for accesing this project! This is the Reggueatonator, a simple javascript project to generate random lines for using in any reggueaton song according to the funny instructons provided by a TV parody.  Please don't take the subject seriuosly, it's just fur fun!
 
-##Introduction
+## Introduction
 
 This program as created as a practice project in my Codecademy trainig. The assignment, called Mixed Messages, requested us to provide a random message generator from at lest three sources of content. 
 The conditions provided immediatly reminded me of a TV parody about a loved - and hated - songwriter who is very popular in Latinamerica, Ricardo Arjona. A comedy show in Sony Television provided ready-to-use instructions to compose songs in the artist's signature style. My first idea was to turn those instructions into an automated system. 
