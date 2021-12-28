@@ -10,11 +10,15 @@ let categories = [subj,desire,hotVerb,adverb,timeframe,final];
 
 const reggeatonator = () => {
     let lineArr =[];
-    categories.forEach((el) => {
-        let word = el[randomNum(el)];
+    for (i=0; i<categories.length; i++){
+        let arr = categories[i];
+        let word = randomNum(arr);
         lineArr.push(word);
-        
-    });
+
+        }
+    }
+      
+    
     return lineArr.join(' ');
 }
 console.log(reggeatonator());
