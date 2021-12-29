@@ -4,22 +4,33 @@ let hotVerb = ['aprisionarte', 'encenderte', 'sacudirte', 'despeinarte', 'revolc
 let adverb = ['despacito', 'suave', 'profundo', 'salvaje', 'caliente', 'arriba', 'abajo', 'debajo', 'encima'];
 let timeframe = ['hasta el amanecer', 'toda la noche', 'todo el día', 'un rato', 'toda la canción', 'hasta que cierren la disco', 'hasta que se acabe la fiesta', 'hasta que nos echen del antro'];
 let final = ['sin remordimientos', 'sin pena', 'sin contarle a nadie', 'sin que nadie lo sepa', 'aunque se enteren todos', 'mientras tu novio no está' ];
+let x = (arr) => {return arr.length};
 
-let randomNum = (arr) => {Math.floor(Math.random() * arr.length)};
+let randomNum = (arr) => { return Math.floor(Math.random() * arr.length)};
 let categories = [subj,desire,hotVerb,adverb,timeframe,final];
+
+console.log(randomNum(final));
 
 const reggeatonator = () => {
     let lineArr =[];
     for (i=0; i<categories.length; i++){
         let arr = categories[i];
-        let word = randomNum(arr);
+        let num= randomNum(arr);
+        console.log(num);
+        
+        console.log(arr);
+       let word = categories[i][num];
         lineArr.push(word);
 
-        }
-    }
+        };
+    
       
     
     return lineArr.join(' ');
 }
 console.log(reggeatonator());
+
+
+
+
 
